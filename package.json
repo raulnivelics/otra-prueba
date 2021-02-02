@@ -1,6 +1,9 @@
 {
-  "name": "otra_mas_prueba",
-  "version": "0.1.0",
+  "name": "prueba_front",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "maglo288 <maglo.288@gmail.com>",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,8 +12,19 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "axios": "^0.21.1",
+    "mdbvue": "^6.7.2",
+    "vue": "^2.6.11",
+    "vue-google-charts": "^0.3.3",
+    "vue-gtm": "^1.0.3",
+    "vue-js-modal": "^2.0.0-rc.6",
+    "vue-weather-widget": "^4.2.3"
   },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
@@ -18,7 +32,19 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "vue-loader": "^13.0.5",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
   },
   "eslintConfig": {
     "root": true,
