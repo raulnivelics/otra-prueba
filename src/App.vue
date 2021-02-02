@@ -100,7 +100,7 @@ export default {
   },
    methods: {
       getWeather() {
-        let url = "http://api.openweathermap.org/data/2.5/weather?q="+this.city+"&lang=es&units=metric&APPID=e2f24e73b812a4242d9bdfba8c653ce0";
+        let url = "https://api.openweathermap.org/data/2.5/weather?q="+this.city+"&lang=es&units=metric&APPID=e2f24e73b812a4242d9bdfba8c653ce0";
         
         axios
           .get(url)
